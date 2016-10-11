@@ -107,7 +107,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_h264dec_sprd.so:system/lib/libstagefright_soft_h264dec_sprd.so \
     vendor/samsung/mint2g/proprietary/lib/libstagefright_soft_mpeg4dec_sprd.so:system/lib/libstagefright_soft_mpeg4dec_sprd.so \
-    vendor/samsung/mint2g/proprietary/lib/libUMP.so:system/lib/libUMP.so \
     vendor/samsung/mint2g/proprietary/lib/libvbeffect.so:system/lib/libvbeffect.so \
     vendor/samsung/mint2g/proprietary/lib/libvbpga.so:system/lib/libvbpga.so \
     vendor/samsung/mint2g/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
@@ -115,4 +114,15 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/mint2g/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
     vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd.bin:system/vendor/firmware/fw_bcmdhd.bin \
     vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd_apsta.bin:system/vendor/firmware/fw_bcmdhd_apsta.bin \
-    vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin
+    vendor/samsung/mint2g/proprietary/vendor/firmware/fw_bcmdhd_p2p.bin:system/vendor/firmware/fw_bcmdhd_p2p.bin \
+    vendor/samsung/mint2g/proprietary/lib/modules/dhd.ko:system/lib/modules/dhd.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/mali.ko:system/lib/modules/mali.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/oprofile.ko:system/lib/modules/oprofile.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/ump.ko:system/lib/modules/ump.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/vlx-vipc.ko:system/lib/modules/vlx-vipc.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/vlx-vmq.ko:system/lib/modules/vlx-vmq.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/vmtd-be.ko:system/lib/modules/vmtd-be.ko \
+    vendor/samsung/mint2g/proprietary/lib/modules/vmtd-fe.ko:system/lib/modules/vmtd-fe.ko 
+
+
+
